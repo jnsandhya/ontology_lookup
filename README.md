@@ -30,7 +30,7 @@ It’s recommended to use a virtual environment. Install dependencies using requ
 ```bash
 python3 -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-pip install -r requirements.txt
+pip install -r requirement.txt
 ```
 Alternatively, you can install the package in editable mode (to directly use the package’s dependencies specified in setup.py):
 ```bash
@@ -52,9 +52,9 @@ ontology-lookup efo
 ```yaml
 Ontology Details:
   Title: Experimental Factor Ontology
-  Description: An ontology for experimental variables in the biomedical domain.
-  Number of Terms: 12345
-  Status: Production
+  Description: The Experimental Factor Ontology (EFO) provides a systematic description of many experimental variables available in EBI databases, and for external projects such as the NHGRI GWAS catalogue. It combines parts of several biological ontologies, such as anatomy, disease and chemical compounds. The scope of EFO is to support the annotation, analysis and visualization of data handled by many groups at the EBI and as the core ontology for OpenTargets.org
+  Number of Terms: 57806
+  Status: LOADED
 ```
 
 ## Library Usage
